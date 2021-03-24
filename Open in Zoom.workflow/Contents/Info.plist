@@ -18,6 +18,11 @@
 			</dict>
 			<key>NSMessage</key>
 			<string>runWorkflowAsService</string>
+			<key>NSRequiredContext</key>
+			<dict>
+				<key>NSTextContent</key>
+				<string>URL</string>
+			</dict>
 			<key>NSSendTypes</key>
 			<array>
 				<string>public.utf8-plain-text</string>

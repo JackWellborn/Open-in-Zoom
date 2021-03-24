@@ -3,493 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>AMApplicationBuild</key>
-	<string>492</string>
+	<string>509</string>
 	<key>AMApplicationVersion</key>
 	<string>2.10</string>
 	<key>AMDocumentVersion</key>
 	<string>2</string>
 	<key>actions</key>
 	<array>
-		<dict>
-			<key>action</key>
-			<dict>
-				<key>AMAccepts</key>
-				<dict>
-					<key>Container</key>
-					<string>List</string>
-					<key>Optional</key>
-					<false/>
-					<key>Types</key>
-					<array>
-						<string>*</string>
-					</array>
-				</dict>
-				<key>AMActionVersion</key>
-				<string>v.1.0.2</string>
-				<key>AMApplication</key>
-				<array>
-					<string>Automator</string>
-				</array>
-				<key>AMParameterProperties</key>
-				<dict>
-					<key>variableUUID</key>
-					<dict>
-						<key>isPathPopUp</key>
-						<false/>
-						<key>selectedVariableUUID</key>
-						<string>EFBE7B6D-FA1A-49D5-9D75-E4546AE518E7</string>
-					</dict>
-				</dict>
-				<key>AMProvides</key>
-				<dict>
-					<key>Container</key>
-					<string>List</string>
-					<key>Types</key>
-					<array>
-						<string>*</string>
-					</array>
-				</dict>
-				<key>AMRequiredResources</key>
-				<array/>
-				<key>ActionBundlePath</key>
-				<string>/System/Library/Automator/Set Value of Variable.action</string>
-				<key>ActionName</key>
-				<string>Set Value of Variable</string>
-				<key>ActionParameters</key>
-				<dict>
-					<key>variableUUID</key>
-					<string>EFBE7B6D-FA1A-49D5-9D75-E4546AE518E7</string>
-				</dict>
-				<key>BundleIdentifier</key>
-				<string>com.apple.Automator.SetValueofVariable</string>
-				<key>CFBundleVersion</key>
-				<string>1.0.2</string>
-				<key>CanShowSelectedItemsWhenRun</key>
-				<true/>
-				<key>CanShowWhenRun</key>
-				<true/>
-				<key>Category</key>
-				<array>
-					<string>AMCategoryUtilities</string>
-				</array>
-				<key>Class Name</key>
-				<string>Set_Value_of_Variable</string>
-				<key>InputUUID</key>
-				<string>603B25A4-34D3-4917-9E7A-3A2ABDD362AB</string>
-				<key>Keywords</key>
-				<array>
-					<string>variable</string>
-					<string>binding</string>
-					<string>input</string>
-					<string>output</string>
-					<string>storage</string>
-				</array>
-				<key>OutputUUID</key>
-				<string>243A4306-8E15-4706-9D94-326BECED219E</string>
-				<key>UUID</key>
-				<string>31A9215C-68E8-430A-8CE7-8346C55633C3</string>
-				<key>UnlocalizedApplications</key>
-				<array>
-					<string>Automator</string>
-				</array>
-				<key>arguments</key>
-				<dict>
-					<key>0</key>
-					<dict>
-						<key>default value</key>
-						<string></string>
-						<key>name</key>
-						<string>variableUUID</string>
-						<key>required</key>
-						<string>0</string>
-						<key>type</key>
-						<string>0</string>
-						<key>uuid</key>
-						<string>0</string>
-					</dict>
-				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
-				<key>isViewVisible</key>
-				<true/>
-				<key>location</key>
-				<string>508.500000:228.000000</string>
-				<key>nibPath</key>
-				<string>/System/Library/Automator/Set Value of Variable.action/Contents/Resources/Base.lproj/main.nib</string>
-			</dict>
-			<key>isViewVisible</key>
-			<true/>
-		</dict>
-		<dict>
-			<key>action</key>
-			<dict>
-				<key>AMAccepts</key>
-				<dict>
-					<key>Container</key>
-					<string>List</string>
-					<key>Optional</key>
-					<true/>
-					<key>Types</key>
-					<array>
-						<string>com.apple.cocoa.attributed-string</string>
-					</array>
-				</dict>
-				<key>AMActionVersion</key>
-				<string>1.2.1</string>
-				<key>AMApplication</key>
-				<array>
-					<string>System</string>
-				</array>
-				<key>AMParameterProperties</key>
-				<dict/>
-				<key>AMProvides</key>
-				<dict>
-					<key>Container</key>
-					<string>List</string>
-					<key>Types</key>
-					<array>
-						<string>com.apple.cocoa.attributed-string</string>
-					</array>
-				</dict>
-				<key>AMRequiredResources</key>
-				<array/>
-				<key>ActionBundlePath</key>
-				<string>/System/Library/Automator/Get Contents of Clipboard.action</string>
-				<key>ActionName</key>
-				<string>Get Contents of Clipboard</string>
-				<key>ActionParameters</key>
-				<dict/>
-				<key>BundleIdentifier</key>
-				<string>com.apple.Automator.GetContentsofClipboard</string>
-				<key>CFBundleVersion</key>
-				<string>1.2.1</string>
-				<key>CanShowSelectedItemsWhenRun</key>
-				<true/>
-				<key>CanShowWhenRun</key>
-				<true/>
-				<key>Category</key>
-				<array>
-					<string>AMCategoryUtilities</string>
-				</array>
-				<key>Class Name</key>
-				<string>AMGetContentsOfClipboardAction</string>
-				<key>IgnoresInput</key>
-				<true/>
-				<key>InputUUID</key>
-				<string>9B4EED7B-809C-4AD2-9416-A7D5D1E1A303</string>
-				<key>Keywords</key>
-				<array/>
-				<key>OutputUUID</key>
-				<string>8C2ACFFA-BF39-4D79-9F55-42F0920ECB46</string>
-				<key>UUID</key>
-				<string>4EF1DF32-DF64-409F-B8B5-08D8B9D24E92</string>
-				<key>UnlocalizedApplications</key>
-				<array>
-					<string>System</string>
-				</array>
-				<key>arguments</key>
-				<dict/>
-				<key>conversionLabel</key>
-				<integer>0</integer>
-			</dict>
-		</dict>
-		<dict>
-			<key>action</key>
-			<dict>
-				<key>AMAccepts</key>
-				<dict>
-					<key>Container</key>
-					<string>List</string>
-					<key>Optional</key>
-					<false/>
-					<key>Types</key>
-					<array>
-						<string>*</string>
-					</array>
-				</dict>
-				<key>AMActionVersion</key>
-				<string>v.1.0.2</string>
-				<key>AMApplication</key>
-				<array>
-					<string>Automator</string>
-				</array>
-				<key>AMParameterProperties</key>
-				<dict>
-					<key>variableUUID</key>
-					<dict>
-						<key>isPathPopUp</key>
-						<false/>
-						<key>selectedVariableUUID</key>
-						<string>CA253AD5-0DD4-42C8-B063-5CBE863BB0DF</string>
-					</dict>
-				</dict>
-				<key>AMProvides</key>
-				<dict>
-					<key>Container</key>
-					<string>List</string>
-					<key>Types</key>
-					<array>
-						<string>*</string>
-					</array>
-				</dict>
-				<key>AMRequiredResources</key>
-				<array/>
-				<key>ActionBundlePath</key>
-				<string>/System/Library/Automator/Set Value of Variable.action</string>
-				<key>ActionName</key>
-				<string>Set Value of Variable</string>
-				<key>ActionParameters</key>
-				<dict>
-					<key>variableUUID</key>
-					<string>CA253AD5-0DD4-42C8-B063-5CBE863BB0DF</string>
-				</dict>
-				<key>BundleIdentifier</key>
-				<string>com.apple.Automator.SetValueofVariable</string>
-				<key>CFBundleVersion</key>
-				<string>1.0.2</string>
-				<key>CanShowSelectedItemsWhenRun</key>
-				<true/>
-				<key>CanShowWhenRun</key>
-				<true/>
-				<key>Category</key>
-				<array>
-					<string>AMCategoryUtilities</string>
-				</array>
-				<key>Class Name</key>
-				<string>Set_Value_of_Variable</string>
-				<key>InputUUID</key>
-				<string>F593A961-C93C-4EE1-927B-BE4C1233CE8B</string>
-				<key>Keywords</key>
-				<array>
-					<string>variable</string>
-					<string>binding</string>
-					<string>input</string>
-					<string>output</string>
-					<string>storage</string>
-				</array>
-				<key>OutputUUID</key>
-				<string>F0C0CD33-7976-4DA0-94DB-4EFA1966FA03</string>
-				<key>UUID</key>
-				<string>606C1E30-2F2F-4F3C-A8F6-E2350B7A7440</string>
-				<key>UnlocalizedApplications</key>
-				<array>
-					<string>Automator</string>
-				</array>
-				<key>arguments</key>
-				<dict>
-					<key>0</key>
-					<dict>
-						<key>default value</key>
-						<string></string>
-						<key>name</key>
-						<string>variableUUID</string>
-						<key>required</key>
-						<string>0</string>
-						<key>type</key>
-						<string>0</string>
-						<key>uuid</key>
-						<string>0</string>
-					</dict>
-				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
-				<key>isViewVisible</key>
-				<true/>
-				<key>location</key>
-				<string>508.500000:398.000000</string>
-				<key>nibPath</key>
-				<string>/System/Library/Automator/Set Value of Variable.action/Contents/Resources/Base.lproj/main.nib</string>
-			</dict>
-			<key>isViewVisible</key>
-			<true/>
-		</dict>
-		<dict>
-			<key>action</key>
-			<dict>
-				<key>AMAccepts</key>
-				<dict>
-					<key>Container</key>
-					<string>List</string>
-					<key>Optional</key>
-					<true/>
-					<key>Types</key>
-					<array>
-						<string>*</string>
-					</array>
-				</dict>
-				<key>AMActionVersion</key>
-				<string>v.1.0.2</string>
-				<key>AMApplication</key>
-				<array>
-					<string>Automator</string>
-				</array>
-				<key>AMParameterProperties</key>
-				<dict>
-					<key>variableUUID</key>
-					<dict>
-						<key>isPathPopUp</key>
-						<false/>
-						<key>selectedVariableUUID</key>
-						<string>EFBE7B6D-FA1A-49D5-9D75-E4546AE518E7</string>
-					</dict>
-				</dict>
-				<key>AMProvides</key>
-				<dict>
-					<key>Container</key>
-					<string>List</string>
-					<key>Optional</key>
-					<false/>
-					<key>Types</key>
-					<array>
-						<string>com.apple.cocoa.attributed-string</string>
-					</array>
-				</dict>
-				<key>AMRequiredResources</key>
-				<array/>
-				<key>ActionBundlePath</key>
-				<string>/System/Library/Automator/Get Value of Variable.action</string>
-				<key>ActionName</key>
-				<string>Get Value of Variable</string>
-				<key>ActionParameters</key>
-				<dict>
-					<key>variableUUID</key>
-					<string>EFBE7B6D-FA1A-49D5-9D75-E4546AE518E7</string>
-				</dict>
-				<key>BundleIdentifier</key>
-				<string>com.apple.Automator.GetValueofVariable</string>
-				<key>CFBundleVersion</key>
-				<string>1.0.2</string>
-				<key>CanShowSelectedItemsWhenRun</key>
-				<false/>
-				<key>CanShowWhenRun</key>
-				<true/>
-				<key>Category</key>
-				<array>
-					<string>AMCategoryUtilities</string>
-				</array>
-				<key>Class Name</key>
-				<string>Get_Value_of_Variable</string>
-				<key>IgnoresInput</key>
-				<true/>
-				<key>InputUUID</key>
-				<string>A03781F5-AC2B-4FEF-ACF2-755B50CD85FA</string>
-				<key>Keywords</key>
-				<array>
-					<string>variable</string>
-					<string>binding</string>
-					<string>input</string>
-					<string>output</string>
-					<string>storage</string>
-				</array>
-				<key>OutputUUID</key>
-				<string>26B520B9-BBB0-4168-B3EB-53F2632A08A1</string>
-				<key>UUID</key>
-				<string>B9A0B0C8-5276-438D-AFA1-4FAFD813D35E</string>
-				<key>UnlocalizedApplications</key>
-				<array>
-					<string>Automator</string>
-				</array>
-				<key>arguments</key>
-				<dict>
-					<key>0</key>
-					<dict>
-						<key>default value</key>
-						<string></string>
-						<key>name</key>
-						<string>variableUUID</string>
-						<key>required</key>
-						<string>0</string>
-						<key>type</key>
-						<string>0</string>
-						<key>uuid</key>
-						<string>0</string>
-					</dict>
-				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
-				<key>isViewVisible</key>
-				<true/>
-				<key>location</key>
-				<string>508.500000:500.000000</string>
-				<key>nibPath</key>
-				<string>/System/Library/Automator/Get Value of Variable.action/Contents/Resources/Base.lproj/main.nib</string>
-			</dict>
-			<key>isViewVisible</key>
-			<true/>
-		</dict>
-		<dict>
-			<key>action</key>
-			<dict>
-				<key>AMAccepts</key>
-				<dict>
-					<key>Container</key>
-					<string>List</string>
-					<key>Optional</key>
-					<false/>
-					<key>Types</key>
-					<array>
-						<string>com.apple.cocoa.attributed-string</string>
-					</array>
-				</dict>
-				<key>AMActionVersion</key>
-				<string>1.2.1</string>
-				<key>AMApplication</key>
-				<array>
-					<string>System</string>
-				</array>
-				<key>AMParameterProperties</key>
-				<dict/>
-				<key>AMProvides</key>
-				<dict>
-					<key>Container</key>
-					<string>List</string>
-					<key>Optional</key>
-					<false/>
-					<key>Types</key>
-					<array>
-						<string>com.apple.cocoa.attributed-string</string>
-					</array>
-				</dict>
-				<key>ActionBundlePath</key>
-				<string>/System/Library/Automator/Copy to Clipboard.action</string>
-				<key>ActionName</key>
-				<string>Copy to Clipboard</string>
-				<key>ActionParameters</key>
-				<dict/>
-				<key>BundleIdentifier</key>
-				<string>com.apple.Automator.CopyToClipboard</string>
-				<key>CFBundleVersion</key>
-				<string>1.2.1</string>
-				<key>CanShowSelectedItemsWhenRun</key>
-				<true/>
-				<key>CanShowWhenRun</key>
-				<false/>
-				<key>Category</key>
-				<array>
-					<string>AMCategoryUtilities</string>
-				</array>
-				<key>Class Name</key>
-				<string>AMCopyToClipboardAction</string>
-				<key>InputUUID</key>
-				<string>E97F7F95-623A-4471-B055-6A3C69217247</string>
-				<key>Keywords</key>
-				<array>
-					<string>Copy</string>
-				</array>
-				<key>OutputUUID</key>
-				<string>C4B54475-6C0E-45B4-91DA-22DB004E835B</string>
-				<key>UUID</key>
-				<string>A53110F7-B4AE-4678-A9CB-8C2AE833A30A</string>
-				<key>UnlocalizedApplications</key>
-				<array>
-					<string>System</string>
-				</array>
-				<key>arguments</key>
-				<dict/>
-				<key>conversionLabel</key>
-				<integer>0</integer>
-			</dict>
-		</dict>
 		<dict>
 			<key>action</key>
 			<dict>
@@ -505,7 +25,7 @@
 					</array>
 				</dict>
 				<key>AMActionVersion</key>
-				<string>1.0.2</string>
+				<string>1.0</string>
 				<key>AMApplication</key>
 				<array>
 					<string>Automator</string>
@@ -525,19 +45,18 @@
 					</array>
 				</dict>
 				<key>ActionBundlePath</key>
-				<string>/System/Library/Automator/Run AppleScript.action</string>
+				<string>/System/Library/Automator/Run JavaScript.action</string>
 				<key>ActionName</key>
-				<string>Run AppleScript</string>
+				<string>Run JavaScript</string>
 				<key>ActionParameters</key>
 				<dict>
 					<key>source</key>
-					<string>on run {input, parameters}	tell application "System Events"		-- How long to wait between input		set wait to 0.3				-- See if Zoom is already running by getting a count of its processes		set zoomProcessCount to count of (processes whose name is "Zoom.us")				-- Activate Zoom		tell application "zoom.us"			activate			-- If Zoom wasn't already open, we have to wait for it.			if zoomProcessCount = 0 then				delay 3			end if		end tell
-				-- ⌘+j to join a meeting. 		key code 38 using {command down}		delay wait				-- ⌘+v to paste meeting code		key code 9 using {command down}		delay wait				-- tab to chevron within "Meeting ID or Personal Link Name" filled		key code 48		delay wait				-- tab to "Your Name" field (assuming this already filled)		key code 48		delay wait				-- tab to "Don't connect to audio" checkbox and leave unchecked		key code 48		delay wait				-- tab to "Turn off my video" checkbox and checked		key code 48		delay wait		key code 49		delay wait				-- tab to "Cancel" button		key code 48		delay wait				-- tab to "Join" button and hit space key to join		key code 48		delay wait		key code 49	end tell	return inputend run</string>
+					<string>function run(input, parameters) {	let webURL = input[0];	let zoomURL = webURL.replace(/https\:\/\/[^\.]+\.zoom\.us\/j\//,"zoommtg://zoom.us/join?confno=").replace('?pwd', '&amp;pwd');		let system = Application("System Events");	system.includeStandardAdditions = true;	system.openLocation(zoomURL);	return zoomURL;}</string>
 				</dict>
 				<key>BundleIdentifier</key>
-				<string>com.apple.Automator.RunScript</string>
+				<string>com.apple.Automator.RunJavaScript</string>
 				<key>CFBundleVersion</key>
-				<string>1.0.2</string>
+				<string>1.0</string>
 				<key>CanShowSelectedItemsWhenRun</key>
 				<false/>
 				<key>CanShowWhenRun</key>
@@ -547,17 +66,18 @@
 					<string>AMCategoryUtilities</string>
 				</array>
 				<key>Class Name</key>
-				<string>RunScriptAction</string>
+				<string>RunJavaScriptAction</string>
 				<key>InputUUID</key>
-				<string>DB99D98F-BF46-446E-93DD-F390582B516C</string>
+				<string>51CECFC8-195D-46F7-9F86-0A14B9C42471</string>
 				<key>Keywords</key>
 				<array>
 					<string>Run</string>
+					<string>JavaScript</string>
 				</array>
 				<key>OutputUUID</key>
-				<string>F58C8A0A-6DD7-4F5F-BC9F-60EFE147983F</string>
+				<string>EF496322-1781-47CB-9350-63B4EBED95D7</string>
 				<key>UUID</key>
-				<string>1DF865C4-E790-4345-B9F8-F20B4AFE1D2F</string>
+				<string>D4F9034C-7585-4DCA-96A7-E92B51CB6945</string>
 				<key>UnlocalizedApplications</key>
 				<array>
 					<string>Automator</string>
@@ -567,12 +87,12 @@
 					<key>0</key>
 					<dict>
 						<key>default value</key>
-						<string>on run {input, parameters}
+						<string>function run(input, parameters) {
 	
-	(* Your script goes here *)
-	
-	return input
-end run</string>
+	// Your script goes here
+
+	return input;
+}</string>
 						<key>name</key>
 						<string>source</string>
 						<key>required</key>
@@ -583,277 +103,19 @@ end run</string>
 						<string>0</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>508.500000:978.000000</string>
+				<string>440.000000:368.000000</string>
 				<key>nibPath</key>
-				<string>/System/Library/Automator/Run AppleScript.action/Contents/Resources/Base.lproj/main.nib</string>
+				<string>/System/Library/Automator/Run JavaScript.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
 			<true/>
-		</dict>
-		<dict>
-			<key>action</key>
-			<dict>
-				<key>AMAccepts</key>
-				<dict>
-					<key>Container</key>
-					<string>List</string>
-					<key>Optional</key>
-					<true/>
-					<key>Types</key>
-					<array>
-						<string>*</string>
-					</array>
-				</dict>
-				<key>AMActionVersion</key>
-				<string>v.1.0.2</string>
-				<key>AMApplication</key>
-				<array>
-					<string>Automator</string>
-				</array>
-				<key>AMParameterProperties</key>
-				<dict>
-					<key>variableUUID</key>
-					<dict>
-						<key>isPathPopUp</key>
-						<false/>
-						<key>selectedVariableUUID</key>
-						<string>CA253AD5-0DD4-42C8-B063-5CBE863BB0DF</string>
-					</dict>
-				</dict>
-				<key>AMProvides</key>
-				<dict>
-					<key>Container</key>
-					<string>List</string>
-					<key>Optional</key>
-					<false/>
-					<key>Types</key>
-					<array>
-						<string>com.apple.cocoa.attributed-string</string>
-					</array>
-				</dict>
-				<key>AMRequiredResources</key>
-				<array/>
-				<key>ActionBundlePath</key>
-				<string>/System/Library/Automator/Get Value of Variable.action</string>
-				<key>ActionName</key>
-				<string>Get Value of Variable</string>
-				<key>ActionParameters</key>
-				<dict>
-					<key>variableUUID</key>
-					<string>CA253AD5-0DD4-42C8-B063-5CBE863BB0DF</string>
-				</dict>
-				<key>BundleIdentifier</key>
-				<string>com.apple.Automator.GetValueofVariable</string>
-				<key>CFBundleVersion</key>
-				<string>1.0.2</string>
-				<key>CanShowSelectedItemsWhenRun</key>
-				<false/>
-				<key>CanShowWhenRun</key>
-				<true/>
-				<key>Category</key>
-				<array>
-					<string>AMCategoryUtilities</string>
-				</array>
-				<key>Class Name</key>
-				<string>Get_Value_of_Variable</string>
-				<key>IgnoresInput</key>
-				<true/>
-				<key>InputUUID</key>
-				<string>A811E7C9-7905-4386-946E-55D753CF6E29</string>
-				<key>Keywords</key>
-				<array>
-					<string>variable</string>
-					<string>binding</string>
-					<string>input</string>
-					<string>output</string>
-					<string>storage</string>
-				</array>
-				<key>OutputUUID</key>
-				<string>CCAFFF29-22A1-4521-85CB-6DF603A487DF</string>
-				<key>UUID</key>
-				<string>C3268181-6AEA-47E5-8D42-04A6C6C0B581</string>
-				<key>UnlocalizedApplications</key>
-				<array>
-					<string>Automator</string>
-				</array>
-				<key>arguments</key>
-				<dict>
-					<key>0</key>
-					<dict>
-						<key>default value</key>
-						<string></string>
-						<key>name</key>
-						<string>variableUUID</string>
-						<key>required</key>
-						<string>0</string>
-						<key>type</key>
-						<string>0</string>
-						<key>uuid</key>
-						<string>0</string>
-					</dict>
-				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
-				<key>isViewVisible</key>
-				<true/>
-				<key>location</key>
-				<string>508.500000:1080.000000</string>
-				<key>nibPath</key>
-				<string>/System/Library/Automator/Get Value of Variable.action/Contents/Resources/Base.lproj/main.nib</string>
-			</dict>
-			<key>isViewVisible</key>
-			<true/>
-		</dict>
-		<dict>
-			<key>action</key>
-			<dict>
-				<key>AMAccepts</key>
-				<dict>
-					<key>Container</key>
-					<string>List</string>
-					<key>Optional</key>
-					<false/>
-					<key>Types</key>
-					<array>
-						<string>com.apple.cocoa.attributed-string</string>
-					</array>
-				</dict>
-				<key>AMActionVersion</key>
-				<string>1.2.1</string>
-				<key>AMApplication</key>
-				<array>
-					<string>System</string>
-				</array>
-				<key>AMParameterProperties</key>
-				<dict/>
-				<key>AMProvides</key>
-				<dict>
-					<key>Container</key>
-					<string>List</string>
-					<key>Optional</key>
-					<false/>
-					<key>Types</key>
-					<array>
-						<string>com.apple.cocoa.attributed-string</string>
-					</array>
-				</dict>
-				<key>ActionBundlePath</key>
-				<string>/System/Library/Automator/Copy to Clipboard.action</string>
-				<key>ActionName</key>
-				<string>Copy to Clipboard</string>
-				<key>ActionParameters</key>
-				<dict/>
-				<key>BundleIdentifier</key>
-				<string>com.apple.Automator.CopyToClipboard</string>
-				<key>CFBundleVersion</key>
-				<string>1.2.1</string>
-				<key>CanShowSelectedItemsWhenRun</key>
-				<true/>
-				<key>CanShowWhenRun</key>
-				<false/>
-				<key>Category</key>
-				<array>
-					<string>AMCategoryUtilities</string>
-				</array>
-				<key>Class Name</key>
-				<string>AMCopyToClipboardAction</string>
-				<key>InputUUID</key>
-				<string>FDBFEC86-1D6B-4D23-A041-71A5911D3275</string>
-				<key>Keywords</key>
-				<array>
-					<string>Copy</string>
-				</array>
-				<key>OutputUUID</key>
-				<string>58E52465-6C58-4A75-8A0C-40698B3F970D</string>
-				<key>UUID</key>
-				<string>B3204E4D-F29C-4251-9FCF-F5FBB5A05267</string>
-				<key>UnlocalizedApplications</key>
-				<array>
-					<string>System</string>
-				</array>
-				<key>arguments</key>
-				<dict/>
-				<key>conversionLabel</key>
-				<integer>0</integer>
-			</dict>
 		</dict>
 	</array>
 	<key>connectors</key>
-	<dict>
-		<key>4F11EB44-EAFC-47BB-BA68-1A25CBD9A157</key>
-		<dict>
-			<key>from</key>
-			<string>A53110F7-B4AE-4678-A9CB-8C2AE833A30A - A53110F7-B4AE-4678-A9CB-8C2AE833A30A</string>
-			<key>to</key>
-			<string>1DF865C4-E790-4345-B9F8-F20B4AFE1D2F - 1DF865C4-E790-4345-B9F8-F20B4AFE1D2F</string>
-		</dict>
-		<key>774A316A-7C7D-492B-9F25-577636981F66</key>
-		<dict>
-			<key>from</key>
-			<string>B9A0B0C8-5276-438D-AFA1-4FAFD813D35E - B9A0B0C8-5276-438D-AFA1-4FAFD813D35E</string>
-			<key>to</key>
-			<string>A53110F7-B4AE-4678-A9CB-8C2AE833A30A - A53110F7-B4AE-4678-A9CB-8C2AE833A30A</string>
-		</dict>
-		<key>7F55A8EA-5A13-4C26-8671-6A9C2DBA830D</key>
-		<dict>
-			<key>from</key>
-			<string>4EF1DF32-DF64-409F-B8B5-08D8B9D24E92 - 4EF1DF32-DF64-409F-B8B5-08D8B9D24E92</string>
-			<key>to</key>
-			<string>606C1E30-2F2F-4F3C-A8F6-E2350B7A7440 - 606C1E30-2F2F-4F3C-A8F6-E2350B7A7440</string>
-		</dict>
-		<key>7FCB2C88-DE3B-4175-930F-355BE226F218</key>
-		<dict>
-			<key>from</key>
-			<string>31A9215C-68E8-430A-8CE7-8346C55633C3 - 31A9215C-68E8-430A-8CE7-8346C55633C3</string>
-			<key>to</key>
-			<string>4EF1DF32-DF64-409F-B8B5-08D8B9D24E92 - 4EF1DF32-DF64-409F-B8B5-08D8B9D24E92</string>
-		</dict>
-		<key>94075B8C-D35C-4693-A418-930ABDEC041A</key>
-		<dict>
-			<key>from</key>
-			<string>1DF865C4-E790-4345-B9F8-F20B4AFE1D2F - 1DF865C4-E790-4345-B9F8-F20B4AFE1D2F</string>
-			<key>to</key>
-			<string>C3268181-6AEA-47E5-8D42-04A6C6C0B581 - C3268181-6AEA-47E5-8D42-04A6C6C0B581</string>
-		</dict>
-		<key>9583B292-3B27-468C-86A7-2D81B7A7E635</key>
-		<dict>
-			<key>from</key>
-			<string>606C1E30-2F2F-4F3C-A8F6-E2350B7A7440 - 606C1E30-2F2F-4F3C-A8F6-E2350B7A7440</string>
-			<key>to</key>
-			<string>B9A0B0C8-5276-438D-AFA1-4FAFD813D35E - B9A0B0C8-5276-438D-AFA1-4FAFD813D35E</string>
-		</dict>
-		<key>E30B38A8-707B-448A-93B7-6F58554BCA28</key>
-		<dict>
-			<key>from</key>
-			<string>C3268181-6AEA-47E5-8D42-04A6C6C0B581 - C3268181-6AEA-47E5-8D42-04A6C6C0B581</string>
-			<key>to</key>
-			<string>B3204E4D-F29C-4251-9FCF-F5FBB5A05267 - B3204E4D-F29C-4251-9FCF-F5FBB5A05267</string>
-		</dict>
-	</dict>
-	<key>variables</key>
-	<array>
-		<dict>
-			<key>UUID</key>
-			<string>EFBE7B6D-FA1A-49D5-9D75-E4546AE518E7</string>
-			<key>identifier</key>
-			<string>com.apple.Automator.Variable.Storage</string>
-			<key>name</key>
-			<string>Zoom ID</string>
-		</dict>
-		<dict>
-			<key>UUID</key>
-			<string>CA253AD5-0DD4-42C8-B063-5CBE863BB0DF</string>
-			<key>identifier</key>
-			<string>com.apple.Automator.Variable.Storage</string>
-			<key>name</key>
-			<string>Clipboard Contents</string>
-		</dict>
-	</array>
+	<dict/>
 	<key>workflowMetaData</key>
 	<dict>
 		<key>applicationBundleIDsByPath</key>
@@ -948,19 +210,19 @@ end run</string>
 		<key>backgroundColorName</key>
 		<string>systemBlueColor</string>
 		<key>inputTypeIdentifier</key>
-		<string>com.apple.Automator.text</string>
+		<string>com.apple.Automator.text.url</string>
 		<key>outputTypeIdentifier</key>
 		<string>com.apple.Automator.nothing</string>
 		<key>presentationMode</key>
 		<integer>11</integer>
 		<key>processesInput</key>
-		<integer>0</integer>
+		<integer>1</integer>
 		<key>serviceInputTypeIdentifier</key>
-		<string>com.apple.Automator.text</string>
+		<string>com.apple.Automator.text.url</string>
 		<key>serviceOutputTypeIdentifier</key>
 		<string>com.apple.Automator.nothing</string>
 		<key>serviceProcessesInput</key>
-		<integer>0</integer>
+		<integer>1</integer>
 		<key>systemImageName</key>
 		<string>NSTouchBarGlobe</string>
 		<key>useAutomaticInputType</key>
